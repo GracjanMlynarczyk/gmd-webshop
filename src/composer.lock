@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a10c19a0ea5cd8eebc7e03b38680a73",
+    "content-hash": "c693cd5bf15cf6507d43c5e312722b10",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -531,6 +531,44 @@
                 }
             ],
             "time": "2023-09-01T21:10:07+00:00"
+        },
+        {
+            "name": "caravelx/module-graphql-config",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caravelx/module-graphql-config.git",
+                "reference": "4d657e7cab817cf6bf37ae4b7e0d809ed2ee9543"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caravelx/module-graphql-config/zipball/4d657e7cab817cf6bf37ae4b7e0d809ed2ee9543",
+                "reference": "4d657e7cab817cf6bf37ae4b7e0d809ed2ee9543",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*",
+                "magento/module-graph-ql": "100.4.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Caravel\\GraphQlConfig\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This module allow to configure the GraphQL complexity and depth inside the Magento administration",
+            "support": {
+                "issues": "https://github.com/caravelx/module-graphql-config/issues",
+                "source": "https://github.com/caravelx/module-graphql-config/tree/1.0.1"
+            },
+            "time": "2021-10-04T15:28:27+00:00"
         },
         {
             "name": "christian-riesen/base32",
